@@ -32,6 +32,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise', '~> 4.7'
 gem 'carrierwave', '~> 2.0'
 gem 'mini_magick'
+gem 'valid_url', '~> 0.0.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
