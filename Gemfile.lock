@@ -243,7 +243,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   carrierwave (~> 2.0)
-  devise (~> 4.7.1)
+  devise (>= 4.7.1)
   inline_svg (~> 1.5, >= 1.5.2)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)

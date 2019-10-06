@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 # My Gems
-gem 'devise', '~> 4.7.1'
+gem 'devise', '>= 4.7.1'
 gem 'carrierwave', '~> 2.0'
 gem 'mini_magick'
 gem 'valid_url', '~> 0.0.4'
