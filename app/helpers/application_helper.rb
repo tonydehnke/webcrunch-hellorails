@@ -1,5 +1,5 @@
 module ApplicationHelper
-  def render_svg(name, title:nil, styles: "fill-current text-gray-400")
+  def render_svg(name, title: nil, styles: "fill-current text-gray-400")
     filename = "#{name}.svg"
     title ||= name.underscore.humanize
     inline_svg(filename, aria: true, nocomment: true, title: title, class: styles)
