@@ -29,10 +29,11 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 # My Gems
-gem 'devise', '~> 4.7'
+gem 'devise', '>= 4.7.1'
 gem 'carrierwave', '~> 2.0'
 gem 'mini_magick'
 gem 'valid_url', '~> 0.0.4'
+gem 'inline_svg', '~> 1.5', '>= 1.5.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

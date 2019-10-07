@@ -1,5 +1,12 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
+
+// Import our custom Tailwind components
+@import "components/icons";
+@import "components/base";
+@import "components/buttons";
+@import "components/cards";
+@import "components/forms";
+
 
 @import "tailwindcss/utilities";
